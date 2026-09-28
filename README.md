@@ -21,10 +21,26 @@ with diagnostics, traceability, and validation history.
 This is a technical portfolio project, not a commercial product or a claim of
 production readiness.
 
-## Screenshots
+## Demo
 
-Screenshots of the GUI and generated report will be added here after capturing
-them from a real application run.
+The synthetic workbooks flow through **Input → Processing → Validation →
+Result**, producing a GUI summary and a traceable Excel report.
+
+![UniversalDataValidator GUI after validation](docs/images/gui-execucao.png)
+
+*GUI after completing a validation run.*
+
+![Excel report summary panel](docs/images/relatorio-painel.png)
+
+*The report's `Painel` sheet summarizes analyzed documents and problem categories.*
+
+![Excel report diagnostics](docs/images/relatorio-diagnostico.png)
+
+*The `Diagnostico` sheet shows actual classifications, values, and explanations.*
+
+![Excel report source traceability](docs/images/relatorio-rastreabilidade.png)
+
+*The `Rastreabilidade` sheet links synthetic records to their source file and row.*
 
 ## Business problem
 

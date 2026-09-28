@@ -21,10 +21,26 @@ rastreabilidade e histórico de validações.
 Este é um projeto técnico de portfólio. Ele não é um produto comercial e não
 afirma estar pronto para produção.
 
-## Capturas de tela
+## Demonstração
 
-Capturas da interface e do relatório gerado serão adicionadas aqui após serem
-obtidas em uma execução real da aplicação.
+As planilhas sintéticas percorrem **Entrada → Processamento → Validação →
+Resultado**, gerando um resumo na GUI e um relatório Excel rastreável.
+
+![Interface do UniversalDataValidator após a validação](docs/images/gui-execucao.png)
+
+*GUI após concluir uma execução de validação.*
+
+![Painel de resumo do relatório Excel](docs/images/relatorio-painel.png)
+
+*A aba `Painel` resume os documentos analisados e as categorias de problemas.*
+
+![Diagnósticos do relatório Excel](docs/images/relatorio-diagnostico.png)
+
+*A aba `Diagnostico` apresenta classificações, valores e explicações reais.*
+
+![Rastreabilidade das fontes no relatório Excel](docs/images/relatorio-rastreabilidade.png)
+
+*A aba `Rastreabilidade` relaciona registros sintéticos ao arquivo e à linha de origem.*
 
 ## Problema de negócio
 
