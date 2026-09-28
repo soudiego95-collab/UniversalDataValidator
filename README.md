@@ -2,6 +2,8 @@
 
 # UniversalDataValidator V14
 
+[![CI](https://github.com/soudiego95-collab/UniversalDataValidator/actions/workflows/ci.yml/badge.svg)](https://github.com/soudiego95-collab/UniversalDataValidator/actions/workflows/ci.yml)
+
 ## Project overview
 
 UniversalDataValidator is a modular Python application for comparing two
@@ -18,6 +20,11 @@ with diagnostics, traceability, and validation history.
 
 This is a technical portfolio project, not a commercial product or a claim of
 production readiness.
+
+## Screenshots
+
+Screenshots of the GUI and generated report will be added here after capturing
+them from a real application run.
 
 ## Business problem
 
